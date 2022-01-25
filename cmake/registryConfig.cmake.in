@@ -1,0 +1,7 @@
+# Get compiler and flags
+get_filename_component(SELF_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+
+# Include the targets
+include(${SELF_DIR}/registryTargets.cmake)
+
+
